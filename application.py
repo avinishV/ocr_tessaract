@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 from ocr_core import ocr_core
 import json
 
-UPLOAD_FOLDER = "/home/webwerks/Documents/backup_file/ocr-code-master/"
+UPLOAD_FOLDER = "/home/folder/Documents/backup_file/ocr-code-master/"
 ALLOWED_EXTENSIONS = {"txt","pdf", "png", "gif", "jpg", "jpeg"}
 
 app = Flask(__name__)
